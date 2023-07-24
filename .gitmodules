@@ -7,3 +7,15 @@
 [submodule "contracts"]
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
+[submodule "layers/poky"]
+	path = layers/poky
+	url = git://git.yoctoproject.org/poky.git
+	branch = kirkstone
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+	branch = kirkstone
+[submodule "layers/meta-raspberrypi"]
+	path = layers/meta-raspberrypi
+	url = git://git.yoctoproject.org/meta-raspberrypi
+	branch = kirkstone
